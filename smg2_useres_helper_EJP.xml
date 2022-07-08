@@ -1,0 +1,21 @@
+<wiidisc version="1">
+	<id game="SB4">
+		<region type="E"/>
+		<region type="J"/>
+		<region type="P"/>
+	</id>
+	<options>
+		<section name="Super Mario Galaxy 2 -- UseResource Helper">
+			<option name="Use UseResource helper?">
+				<choice name="Enabled">
+					<patch id="usereshelper"/>
+				</choice>
+			</option>
+		</section>
+	</options>
+	<patch id="usereshelper">
+		<memory offset='0x80002280' value='9421FFF07C0802A69001001493E1000C7C7F1B783C6080007FE4FB78386323104CC63182485B3F6D7FE3FB7838800000480232718001001483E1000C7C0803A6382100104E8000209421FFF07C0802A63CA080009001001438A5231093E1000C7C7F1B787FE4FB783865000C4CC63182485B3F217FE3FB784850C1B98001001483E1000C7C0803A6382100104E800020415243484956452025730A00534F554E442025730A000000' />
+		<memory offset='0x804B1FE0' value='4BB502A1' />
+		<memory offset='0x80086544' value='4BF7BD85' />
+	</patch>
+</wiidisc>
